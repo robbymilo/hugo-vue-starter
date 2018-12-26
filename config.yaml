@@ -1,0 +1,4 @@
+baseURL: '/'
+languageCode: en-us
+title: Hugo Starter
+theme: milo-hugo-vue
