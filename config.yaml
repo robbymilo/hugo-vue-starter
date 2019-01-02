@@ -1,4 +1,4 @@
-baseURL: '/'
+baseURL: 'https://hungry-nobel-2ca427.netlify.com'
 languageCode: en-us
 title: Hugo Starter
 theme: milo-hugo-vue

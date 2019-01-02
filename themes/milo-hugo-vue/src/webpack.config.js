@@ -12,8 +12,21 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, './../static/dist'),
-    filename: 'app.[contenthash].js',
+    chunkFilename: `[id].[chunkhash].js`,
+    filename:`[id].[chunkhash].js`,
     publicPath:  path.join(__dirname, './../static/dist')
+  },
+  optimization: {
+    namedChunks: true,
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendor',
+            chunks: 'all'
+        }
+      }
+    },
   },
   resolve: {
     alias: {

@@ -1,6 +1,9 @@
 {
   "app": {
-    "css": "app.21674534e65530a3cd66.css",
-    "js": "app.83de52e95a11835c6186.js"
+    "css": "app.93429f27badc25e6657b.css",
+    "js": "app.f414af87e40f2f15270c.js"
+  },
+  "vendor": {
+    "js": "vendor.fdf066bf909b2f5a216e.js"
   }
 }
