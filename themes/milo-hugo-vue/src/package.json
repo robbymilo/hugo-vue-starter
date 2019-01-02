@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "rm ../static/dist/* && webpack -p"
+    "build": "webpack -p"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
