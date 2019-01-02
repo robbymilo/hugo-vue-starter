@@ -29,4 +29,5 @@ npm-debug.log
 /junit.xml
 partials/structure/stylesheet.html
 
-/static/dist/*
+/static/dist/app*
+/static/dist/vendor*
