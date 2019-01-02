@@ -1,4 +1,4 @@
-cd themes/ananke/src &&
+cd themes/milo-hugo-vue/src &&
 npm install &&
 npm run build &&
 cd .. &&
