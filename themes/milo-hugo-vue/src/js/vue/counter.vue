@@ -1,6 +1,6 @@
 <template>
   <div class="example">
-    Total: {{ msg }}
+    Total Counter Test: {{ msg }}
     <button @click="increase">Increase</button>
   </div>
 </template>
