@@ -4,9 +4,18 @@ A starting point for building Hugo themes with single-file Vue.js components. Hu
 
 Inside the folder of your Hugo site run:
 
-    $ cd themes
-    $ git clone https://github.com/robbymilo/hugo-vue-starter.git
-    $ npm install
+```console
+cd themes
+```
+```console
+git clone https://github.com/robbymilo/hugo-vue-starter.git
+```
+```console
+cd themes/hugo-vue-starter/src
+```
+```console
+npm install
+```
 
 ## Development Mode
 
@@ -14,16 +23,22 @@ On .css, .scss, .js, and .vue file saves Webpack will re-compile and write a new
 
 To use development mode
 
-    $ npm run start
+```console
+npm run start
+```
 
 Then, in the root folder
 
-    $ hugo server
+```console
+hugo server
+```
 
 ## Production Mode
 
 To build for production
 
-    $ npm run build
+```console
+npm run build
+```
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
