@@ -4,7 +4,8 @@ A starting point for building Hugo themes with single-file Vue.js components. Hu
 
 Inside the folder of your Hugo site run:
 
-    $ cd themes/milo-hugo-vue/src
+    $ cd themes
+    $ git clone https://github.com/robbymilo/hugo-vue-starter.git
     $ npm install
 
 ## Development Mode
