@@ -5,6 +5,7 @@ const AssetsPlugin = require('assets-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
   mode: 'production',
@@ -44,7 +45,7 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader,
           {
@@ -104,6 +105,14 @@ module.exports = {
       prettyPrint: true,
       useCompilerPath: false
     }),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /\.(scss|css)$/,
+      cssProcessor: require('cssnano'),
+      cssProcessorPluginOptions: {
+        preset: ['default', { discardComments: { removeAll: true } }],
+      },
+      canPrint: true
+    }),
   ],
 };
