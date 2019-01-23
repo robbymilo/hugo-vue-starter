@@ -1,4 +1,4 @@
-cd themes/milo-hugo-vue/src &&
+cd themes/hugo-vue-starter/src &&
 npm install &&
 npm run build &&
 cd .. &&
