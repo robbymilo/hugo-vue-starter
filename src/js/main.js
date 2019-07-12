@@ -1,10 +1,22 @@
-import Vue from 'vue';
-import App from './app.vue';
+import "../scss/main.scss"; // import SCSS file
 
-import '../scss/main.scss';
+import Vue from "vue"; // import Vue.js
 
+import { functions } from "./vue/mixins/functions.js"; // shared methods go here
 
+// import single-file Vue.js components for lazy-loading
+var vueCounter = () =>
+  import(
+    /* webpackChunkName: "vueCounter" */
+    /* webpackMode: "lazy" */
+    "./vue/components/counter.vue"
+  );
+
+// register our Vue.js instance
 new Vue({
-    el: '#app',
-    components: { App }
+  el: "#app",
+  mixins: [functions],
+  components: {
+    vueCounter
+  }
 });

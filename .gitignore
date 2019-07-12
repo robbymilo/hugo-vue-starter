@@ -31,5 +31,5 @@ partials/structure/stylesheet.html
 
 node_modules
 
-/static/dist/app*
-/static/dist/vendor*
+/static/dist/
+webpack_assets.json
