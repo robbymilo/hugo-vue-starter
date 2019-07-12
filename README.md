@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Node >= 12
+* Node >= 12.1.0
 * npm >= 6.9.0
 
 ### Installing
