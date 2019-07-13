@@ -91,15 +91,28 @@ module.exports = merge(common, {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "static",
-              publicPath: "/dist"
+              outputPath: "assets",
+              publicPath: "/dist/assets"
             }
           }
         ]
       },
       {
         test: /\.vue$/,
-        loader: "vue-loader"
+        use: [
+          {
+            loader: "vue-loader",
+            options: {
+              /* ... */
+            }
+          },
+          {
+            loader: "vue-svg-inline-loader",
+            options: {
+              /* ... */
+            }
+          }
+        ]
       }
     ]
   }
