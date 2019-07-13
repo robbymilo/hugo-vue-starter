@@ -18,7 +18,7 @@ Clone this repo as a theme in your Hugo install:
 ```console
 cd themes && git clone https://github.com/robbymilo/hugo-vue-starter.git
 ```console
-cd themes/hugo-vue-starter/src
+cd hugo-vue-starter/src
 ```
 ```console
 npm i
@@ -29,10 +29,10 @@ Make sure there is a div with the id of "app" somewhere in your theme - use vue.
 
 On .css, .scss, .js, and .vue file saves webpack will re-compile and create a new .js or .css file which Hugo will pickup and reload.
 
-To use development mode:
+To use development mode, navigate to the src folder:
 
 ```console
-cd src && npm run start
+npm run start
 ```
 
 Then, in the root folder of your Hugo install:
