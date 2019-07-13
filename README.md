@@ -17,6 +17,7 @@ Clone this repo as a theme in your Hugo install:
 
 ```console
 cd themes && git clone https://github.com/robbymilo/hugo-vue-starter.git
+```
 ```console
 cd hugo-vue-starter/src
 ```
