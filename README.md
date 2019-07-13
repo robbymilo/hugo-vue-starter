@@ -5,13 +5,13 @@ A starting point for building Hugo themes with single-file Vue.js components. Hu
 #### Dev Features
 * SCSS with source maps
 * Lazy loaded single-file Vue.js Components
+* Live reload for SCSS/Vue.js files
 
 #### Production Features
 * CSS minification with autoprefixing for older browsers
-* Live reload for SCSS/Vue.js files
 * Lazy loaded single-file Vue.js Components
 * Base64 encoding of small assets
-* A vendor.js and app.js files
+* vendor.js and app.js files, as well as lazy loaded component files
 * Hashed filenames for cache busting
 
 ## Getting Started
