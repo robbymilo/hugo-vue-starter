@@ -13,6 +13,7 @@ A starting point for building Hugo themes with single-file Vue.js components. Hu
 * Base64 encoding of small assets
 * vendor.js and app.js files, as well as lazy loaded component files
 * Hashed filenames for cache busting
+* SVG inlining
 
 ## Getting Started
 
