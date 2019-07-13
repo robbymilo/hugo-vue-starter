@@ -18,6 +18,8 @@ A starting point for building Hugo themes with single-file Vue.js components. Hu
 
 These instructions will get you a copy of the project up and running on your local machine for development of a new Hugo theme. This repo is meant to be forked.
 
+I've added a test Vue.js component, png, svg, and font to make sure everything is compiling properly.
+
 ### Prerequisites
 
 * Node >= 12.1.0
