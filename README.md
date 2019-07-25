@@ -69,7 +69,7 @@ npm run build
 
 ## Authors
 
-* **Robby Milo** [PurpleBooth](https://github.com/robbymilo)
+* **Robby Milo**
 
 ## License
 
